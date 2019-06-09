@@ -350,3 +350,11 @@ img {
   background: #FFFFFF;
   color: #17A2B8;
 }
+.image-mainOne{
+  transform: scale(.9);
+  transform-origin: 0 0;
+  transition: transform .6s;
+}
+.large {
+  transform: scale(1.3);
+}
