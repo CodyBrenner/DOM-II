@@ -62,3 +62,8 @@ function zoom(event) {
        })
    }
 //    10
+let navLink = document.querySelector('.nav');
+navLink.addEventListener('click', (event) => {
+    alert('That Page Is Currently Disabled');
+    event.stopPropagation();
+})
